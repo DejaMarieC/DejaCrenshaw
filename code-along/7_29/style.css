@@ -1,6 +1,7 @@
 .container-fluid {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     height: 100px;
+    padding: 20px;
 }
 
 .container-sm {
@@ -17,5 +18,22 @@
 
 .container-xl {
     background-color: lightyellow;
+}
+
+#column-1 {
+    /* background-color: lightgrey; */
+}
+
+#column-2 {
+    /* background-color:lightgreen; */
+}
+
+
+#column-3 {
+    /* background-color: lightsalmon; */
+}
+
+.section-header {
+    margin-bottom: 20px;
 }
 
