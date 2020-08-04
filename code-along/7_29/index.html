@@ -16,10 +16,21 @@
 <body>
 
     <!--Collapse -->
-    <div class="collapse fixed-top bg-dark" id="#mobileNavbar">
+    <div class="collapse fixed-top bg-dark" id="mobileNavbar">
         <div class="container mobile-menu-wrapper">
-        
-
+            <div class="row">
+                <div class="col">
+                    <ul class="list-group mt-5 text-right">
+                        <li class="list-group-item bg-dark border-0">
+                            <a href="emojis">Emojis</a>
+                        </li>
+                        <li class="list-group-item bg-dark border-0">
+                            <a href="alerts">Alerts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 	<!-- Navbar -->
 		<nav class="navbar fixed-top navbar-dark bg-dark">
@@ -28,7 +39,7 @@
         </a>
 
         <!-- Mobile -->
-        <button class="Navbar-toggler" data-toggle="collapse" data-target="#mobileNavbar">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mobileNavbar">
         <i class="fas fa-bars"></i>
         </button>
 
@@ -99,7 +110,19 @@
 						<div class="alert alert-primary alert-dismissible fade show" role="alert">
 							<strong>.alert-primary</strong>
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                            <span aria-hidden="true">&times;</span>
+                        </div>
+						<div class="alert alert-danger alert-dismissible fade show" role="alert">
+							<strong>.alert-danger</strong>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </div>
+						<div class="alert alert-success alert-dismissible fade show" role="alert">
+							<strong>.alert-success</strong>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </div>
+                            
             </button>
 
 
