@@ -1,0 +1,41 @@
+.wrapper {    
+    background-color: lightblue;
+    height: 50vh;
+    padding: 20px;
+}
+
+.box {    
+    border: 1px solid black;
+    height: 20px;
+    width: 200px;
+}
+
+#purple {    
+    color: fuchsia;
+    /*  
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    margin-bottom: 20px;
+    */
+}
+
+#blue {    
+    background-color: turquoise;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+#green {
+    color: green;
+}
+
+#background {
+    background-color: lightpink;
+    
+}
+
+body{
+         background-color: lightpink;
+         color: white ;
+         font-size:15px;
+         font-family: arial,serif;
+    }
